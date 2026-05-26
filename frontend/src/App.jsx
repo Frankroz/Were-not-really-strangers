@@ -137,6 +137,11 @@ function App() {
         >
           Next Card
         </button>
+
+        {/* Minimal Footer Context */}
+        <p className="text-center mt-6 text-[11px] font-serif italic text-stone-600 tracking-wide pointer-events-none">
+          Made with ❤️ for WRY.
+        </p>
       </div>
     </div>
   );
