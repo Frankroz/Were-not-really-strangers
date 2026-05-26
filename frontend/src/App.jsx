@@ -42,34 +42,36 @@ function App() {
   }, []);
 
   const handleCheckboxChange = (lang) => {
-    setSelectedLanguages({
-      ...selectedLanguages,
-      [lang]: !selectedLanguages[lang],
+    // Functional update ensures state alignment during rapid mobile taps
+    setSelectedLanguages((prev) => {
+      const updated = { ...prev, [lang]: !prev[lang] };
+      // Immediately fetch using the fresh state so user doesn't have to tap "Next Card"
+      fetchNewQuestion(updated);
+      return updated;
     });
   };
 
   return (
-    // Fixed height using dynamic viewport units (dvh) to eliminate mobile address bar shifting
-    <div className="min-h-[100dvh] w-full bg-slate-950 text-rose-100 flex flex-col items-center justify-center font-sans p-4 mobile-safe-bottom relative overflow-hidden">
-      {/* Soft, Romantic Ambient Glows - Scale down slightly for smaller screens */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 md:w-96 md:h-96 bg-rose-900/15 rounded-full blur-[80px] md:blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[6000ms]"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 md:w-96 md:h-96 bg-purple-900/15 rounded-full blur-[80px] md:blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[8000ms]"></div>
+    <div className="min-h-[100dvh] w-full bg-slate-950 text-rose-100 flex flex-col items-center justify-center font-sans p-4 relative overflow-hidden selection:bg-rose-500/20">
+      {/* Soft, Romantic Ambient Glows */}
+      <div className="absolute top-1/4 left-1/4 w-64 h-64 md:w-96 md:h-96 bg-rose-900/10 rounded-full blur-[60px] md:blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[6000ms]"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 md:w-96 md:h-96 bg-purple-900/10 rounded-full blur-[60px] md:blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[8000ms]"></div>
 
-      {/* Main Container - Scaled constraint down to max-w-sm for narrow devices */}
-      <div className="w-full max-w-sm sm:max-w-md z-10 flex flex-col justify-between">
+      {/* Main Container - Adjusted max widths for perfect scaling */}
+      <div className="w-full max-w-[23rem] sm:max-w-md z-10 flex flex-col justify-between">
         {/* Header Block */}
-        <div className="text-center mb-6 sm:mb-8 select-none">
+        <div className="text-center mb-5 sm:mb-8 select-none">
           <h1 className="text-2xl sm:text-3xl font-serif italic font-semibold tracking-wide bg-gradient-to-r from-rose-400 via-pink-300 to-purple-400 bg-clip-text text-transparent mb-1">
             Closer Than Before
           </h1>
-          <p className="text-rose-300/50 font-serif text-[10px] tracking-widest uppercase">
+          <p className="text-rose-300/40 font-serif text-[9px] tracking-widest uppercase">
             Deep Conversations
           </p>
         </div>
 
-        {/* Configuration Panel - Transformed checkboxes to comfortable mobile touch chips */}
-        <div className="bg-stone-900/30 backdrop-blur-md p-3 sm:p-4 rounded-2xl border border-rose-900/10 shadow-2xl mb-4 sm:mb-6">
-          <span className="block text-[9px] font-semibold tracking-widest text-rose-400/50 uppercase mb-3 text-center select-none">
+        {/* Configuration Panel - Touch Chip Buttons */}
+        <div className="bg-stone-900/20 backdrop-blur-md p-3 sm:p-4 rounded-2xl border border-rose-900/10 shadow-2xl mb-4 sm:mb-6">
+          <span className="block text-[9px] font-semibold tracking-widest text-rose-400/50 uppercase mb-2.5 text-center select-none">
             Choose Your Love Languages
           </span>
           <div className="grid grid-cols-3 gap-2">
@@ -78,10 +80,10 @@ function App() {
                 key={lang}
                 type="button"
                 onClick={() => handleCheckboxChange(lang)}
-                className={`w-full py-2.5 px-1 rounded-xl font-serif text-xs capitalize transition-all duration-300 border text-center select-none active:scale-[0.96] ${
+                className={`w-full py-2 sm:py-2.5 px-1 rounded-xl font-serif text-xs capitalize transition-all duration-300 border text-center select-none active:scale-[0.94] ${
                   selectedLanguages[lang]
-                    ? "bg-rose-950/40 border-rose-500/30 text-rose-300 shadow-[0_0_15px_rgba(159,18,57,0.1)]"
-                    : "bg-stone-950/40 border-stone-900/60 text-stone-500"
+                    ? "bg-rose-950/30 border-rose-500/30 text-rose-300 shadow-[0_0_15px_rgba(159,18,57,0.05)]"
+                    : "bg-stone-950/20 border-stone-900/40 text-stone-600"
                 }`}
               >
                 {lang}
@@ -92,13 +94,13 @@ function App() {
 
         {/* Error Banner */}
         {error && (
-          <div className="mb-4 p-3 bg-rose-950/40 border border-rose-900/30 text-rose-400 rounded-xl text-xs font-serif text-center backdrop-blur-sm">
+          <div className="mb-4 p-3 bg-rose-950/40 border border-rose-900/20 text-rose-400 rounded-xl text-xs font-serif text-center backdrop-blur-sm">
             {error}
           </div>
         )}
 
-        {/* WNRS-Inspired Challenge Card - Dynamic heights & padding tailored to small widths */}
-        <div className="min-h-[260px] sm:min-h-[300px] w-full flex flex-col justify-center items-center p-6 sm:p-8 bg-gradient-to-b from-rose-950/30 to-stone-900/50 backdrop-blur-lg rounded-2xl shadow-[0_0_50px_-12px_rgba(159,18,57,0.25)] border border-rose-500/10 text-center mb-5 relative overflow-hidden">
+        {/* WNRS-Inspired Challenge Card */}
+        <div className="min-h-[280px] sm:min-h-[320px] w-full flex flex-col justify-center items-center p-5 sm:p-8 bg-gradient-to-b from-rose-950/20 to-stone-900/40 backdrop-blur-lg rounded-3xl shadow-[0_0_50px_-12px_rgba(159,18,57,0.15)] border border-rose-500/10 text-center mb-5 relative overflow-hidden">
           {loading ? (
             <div className="text-rose-400/40 font-serif italic text-sm animate-pulse tracking-wide">
               Shuffling cards in the dark...
@@ -106,40 +108,42 @@ function App() {
           ) : currentQuestion ? (
             <>
               {/* Language Stamp */}
-              <span className="absolute top-3.5 right-3.5 text-[8px] font-semibold tracking-widest font-mono uppercase px-2 py-0.5 bg-rose-950/80 border border-rose-500/10 rounded text-rose-400/80">
+              <span className="absolute top-3.5 right-3.5 text-[8px] font-semibold tracking-widest font-mono uppercase px-2 py-0.5 bg-rose-950/60 border border-rose-500/10 rounded text-rose-400/70 select-none">
                 {currentQuestion.language}
               </span>
 
-              {/* Card Question Text - Auto-scales size dynamically depending on device width */}
-              <p className="text-lg sm:text-2xl font-serif text-rose-50/90 font-medium leading-relaxed max-w-xs px-2 break-words">
-                "{currentQuestion.question}"
+              {/* Card Question Text */}
+              <p className="text-xl sm:text-2xl font-serif text-rose-50/90 font-medium leading-relaxed max-w-xs px-1 break-inside-avoid [text-shadow:0_2px_10px_rgba(0,0,0,0.2)]">
+                “{currentQuestion.question}”
               </p>
 
-              {/* Character Pinyin Rendering Block */}
+              {/* Mobile-Optimized Character Pinyin Rendering Block */}
               {currentQuestion.pinyin && (
-                <p className="mt-4 text-[11px] sm:text-xs font-mono tracking-wider text-purple-300/80 bg-purple-950/30 px-3 py-1 rounded-full border border-purple-500/10 max-w-[90%] truncate">
-                  {currentQuestion.pinyin}
-                </p>
+                <div className="mt-4 max-w-full px-1">
+                  <p className="text-[11px] sm:text-xs font-mono tracking-wide text-purple-300/80 bg-purple-950/20 px-3 py-1.5 rounded-xl border border-purple-500/10 inline-block balance-text break-words line-clamp-3 overflow-y-auto">
+                    {currentQuestion.pinyin}
+                  </p>
+                </div>
               )}
             </>
           ) : (
-            <div className="text-stone-600 font-serif text-xs tracking-wide">
+            <div className="text-stone-600 font-serif text-xs tracking-wide select-none">
               Silence. Pull a card to speak.
             </div>
           )}
         </div>
 
-        {/* Action Trigger Button - Tap target optimized with minimum 44px layout spacing */}
+        {/* Action Trigger Button */}
         <button
           onClick={() => fetchNewQuestion()}
           disabled={loading}
-          className="w-full py-3.5 px-4 font-serif text-sm tracking-wide rounded-xl transition-all duration-300 bg-gradient-to-r from-rose-700 to-purple-800 hover:from-rose-600 hover:to-purple-700 text-white shadow-xl shadow-rose-950/40 active:scale-[0.97] disabled:opacity-30 disabled:pointer-events-none border border-rose-500/10"
+          className="w-full py-3.5 px-4 font-serif text-sm tracking-wide rounded-xl transition-all duration-300 bg-gradient-to-r from-rose-700 to-purple-800 hover:from-rose-600 hover:to-purple-700 text-white shadow-xl shadow-rose-950/20 active:scale-[0.96] disabled:opacity-30 disabled:pointer-events-none border border-rose-500/10 touch-manipulation"
         >
           Next Card
         </button>
 
         {/* Minimal Footer Context */}
-        <p className="text-center mt-6 text-[11px] font-serif italic text-stone-600 tracking-wide pointer-events-none">
+        <p className="text-center mt-5 text-[10px] font-serif italic text-stone-700 tracking-wide pointer-events-none select-none">
           Made by FJRM with ❤️ for RYW.
         </p>
       </div>
