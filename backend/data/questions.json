@@ -1,0 +1,650 @@
+[
+  {
+    "english": "WILDCARD: admit something.",
+    "chinese": "双盲卡：坦白一件事。",
+    "pinyin": "Shuāngmángkǎ: tǎnbái yī jiàn shì.",
+    "spanish": "COMODÍN: Admite algo."
+  },
+  {
+    "english": "what insecurity of yours holds you back the most?",
+    "chinese": "你哪方面的不安全感最让你裹足不前？",
+    "pinyin": "Nǐ nǎ fāngmiàn de bù ānquángǎn zuì ràng nǐ guǒzú bùqián?",
+    "spanish": "¿Qué inseguridad tuya es la que más te frena?"
+  },
+  {
+    "english": "what's the most pain you've ever been in that wasn't physical?",
+    "chinese": "你经历过最痛苦的非身体伤害是什么？",
+    "pinyin": "Nǐ jīnglì guò zuì tòngkǔ de fēi shēntǐ shānghài shì shénme?",
+    "spanish": "¿Cuál ha sido el mayor dolor no físico que has experimentado?"
+  },
+  {
+    "english": "what's your father's name? and tell me one thing about him.",
+    "chinese": "你父亲叫什么名字？请告诉我一件关于他的事。",
+    "pinyin": "Nǐ fùqīn jiào shénme míngzì? Qǐng gàosù wǒ yī jiàn guānyú tā de shì.",
+    "spanish": "¿Cómo se llama tu padre? Y cuéntame una cosa sobre él."
+  },
+  {
+    "english": "what lesson took you the longest to unlearn?",
+    "chinese": "哪一个道理或观念花了你最长的时间去摒弃/改掉？",
+    "pinyin": "Nǎ yī gè dàolǐ huò guānniàn huā le nǐ zuì cháng de shíjiān qù bìngqì/gǎidiào?",
+    "spanish": "¿Qué lección te tomó más tiempo desaprender?"
+  },
+  {
+    "english": "how are you really?",
+    "chinese": "你最近究竟过得怎么样？（内心真实的感受）",
+    "pinyin": "Nǐ zuìjìn jiūjìng guò de zěnmeyàng? (Nèixīn zhēnshí de gǎnshòu)",
+    "spanish": "¿Cómo estás realmente?"
+  },
+  {
+    "english": "if you could have it your way: who would you be with? where would you be? and what would you be doing?",
+    "chinese": "如果一切都能如你所愿：你会和谁在一起？你会在哪里？你会在做什么？",
+    "pinyin": "Rúguǒ yīqiè dōu néng rú nǐ suǒ yuàn: nǐ huì hé shéi zài yīqǐ? Nǐ huì zài nǎlǐ? Nǐ huì zài zuò shénme?",
+    "spanish": "Si pudieras hacer las cosas a tu manera: ¿con quién estarías?, ¿dónde estarías? y ¿qué estarías haciendo?"
+  },
+  {
+    "english": "are any of your insecurities hurting someone else by accident?",
+    "chinese": "你的某些不安全感是否在无意中伤害到了别人？",
+    "pinyin": "Nǐ de mǒu xiē bù ānquángǎn shìfǒu zài wúyì zhōng shānghài dào le biérén?",
+    "spanish": "¿Alguna de tus inseguridades está lastimando a alguien más sin querer?"
+  },
+  {
+    "english": "dear people who raised me, thank you for ________",
+    "chinese": "致抚养我长大的人：谢谢你们让我/为我 ________",
+    "pinyin": "Zhì fǔyǎng wǒ zhǎngdà de rén: xièxiè nǐmen ràng wǒ/wèi wǒ ________",
+    "spanish": "Queridas personas que me criaron, gracias por ________"
+  },
+  {
+    "english": "what's been keeping you sane lately?",
+    "chinese": "最近是什么在支撑着你的理智/让你保持心态平和？",
+    "pinyin": "Zuìjìn shì shénme zài zhīchēng zhe nǐ de lǐzhì/ràng nǐ bǎochí xīntài pínghé?",
+    "spanish": "¿Qué te ha mantenido cuerdo últimamente?"
+  },
+  {
+    "english": "why do you think we met?",
+    "chinese": "你觉得我们为什么会相遇？",
+    "pinyin": "Nǐ juéde wǒmen wèishénme huì xiāngyù?",
+    "spanish": "¿Por qué crees que nos conocimos?"
+  },
+  {
+    "english": "are you missing anyone right now? do you think they are missing you too?",
+    "chinese": "你现在有在想念谁吗？你觉得对方也在想念你吗？",
+    "pinyin": "Nǐ xiànzài yǒu zài xiǎngniàn shéi ma? Nǐ juéde duìfāng yě zài xiǎngniàn nǐ ma?",
+    "spanish": "¿Extrañas a alguien en este momento? ¿Crees que esa persona también te extraña?"
+  },
+  {
+    "english": "how would you describe the feeling of being in love in one word?",
+    "chinese": "如果用一个词来形容恋爱的感觉，你会用什么？",
+    "pinyin": "Rúguǒ yòng yī gè cí lái xíngróng liàn'ài de gǎnshòu, nǐ huì yòng shénme?",
+    "spanish": "Si pudieras describir la sensación de estar enamorado en una sola palabra, ¿cuál sería?"
+  },
+  {
+    "english": "how can i be there for you during this chapter?",
+    "chinese": "在人生的这个阶段，我该怎么做才能更好地陪伴/支持你？",
+    "pinyin": "Zài rénshēng de zhège jiēduàn, wǒ gāi zěnme zuò cáinéng gèng hǎo de péibàn/zhīchí nǐ?",
+    "spanish": "¿Cómo puedo estar ahí para ti durante esta etapa de tu vida?"
+  },
+  {
+    "english": "if you made a playlist for me, what 3 songs would be on it?",
+    "chinese": "如果你要为我制作一个歌单，哪三首歌一定会放进去？",
+    "pinyin": "Rúguǒ nǐ yào wèi wǒ zhìzuò yī gè gēdān, nǎ sān shǒu gē yīdìng huì fàng jìnqù?",
+    "spanish": "Si me hicieras una lista de reproducción, ¿qué 3 canciones no podrían faltar?"
+  },
+  {
+    "english": "what do i need to watch as soon as i have the time?",
+    "chinese": "有什么影视作品是我一有时间就必须立刻去看的？",
+    "pinyin": "Yǒu shénme yǐngshì zuòpǐn shì wǒ yī yǒu shíjiān jiù bìxū lìkè qù kàn de?",
+    "spanish": "¿Qué serie o película tengo que ver tan pronto como tenga tiempo?"
+  },
+  {
+    "english": "WILDCARD: who's been on your mind lately? send them a text letting them know you're thinking of them. both players.",
+    "chinese": "双盲卡：最近谁总是在你脑海里出现？发条短信告诉他们你在想他们。双方都要执行。",
+    "pinyin": "Shuāngmángkǎ: zuìjìn shéi zǒngshì zài nǐ nǎohǎi lǐ chūxiàn? Fā tiáo duǎnxìn gàosù tāmen nǐ zài xiǎng tāmen. Shuāngfāng dōu yào zhíxíng.",
+    "spanish": "COMODÍN: ¿En quién has estado pensando últimamente? Envíale un mensaje de texto para hacérselo saber. Ambos jugadores."
+  },
+  {
+    "english": "what have the past few weeks taught you?",
+    "chinese": "过去这几周让你学到了什么？",
+    "pinyin": "Guòqù zhè jǐ zhōu ràng nǐ xuédào le shénme?",
+    "spanish": "¿Qué te han enseñado las últimas semanas?"
+  },
+  {
+    "english": "WILDCARD: call someone you admire. let them know why you appreciate them.",
+    "chinese": "双盲卡：给一个你欣赏的人打个电话，告诉他们你为什么感激/看重他们。",
+    "pinyin": "Shuāngmángkǎ: gěi yī gè nǐ xīnshǎng de rén dǎ gè diànhuà, gàosù tāmen nǐ wèishénme gǎnjī/kànzhòng tāmen.",
+    "spanish": "COMODÍN: Llama a alguien a quien admires. Dile por qué le aprecias."
+  },
+  {
+    "english": "what have i tolerated from people in the past that i no longer have space for?",
+    "chinese": "过去我容忍过别人的哪些行为，是现在绝不再姑息的？",
+    "pinyin": "Guòqù wǒ róngrǔn guò biérén de nǎxiē xíngwéi, shì xiànzài jué bù zài gūxī de?",
+    "spanish": "¿Qué cosas he tolerado de la gente en el pasado para las que ya no tengo espacio en mi vida?"
+  },
+  {
+    "english": "something that brought a smile to my face this week was __________.",
+    "chinese": "这周让我嘴角上扬/感到微笑的一件事是 __________。",
+    "pinyin": "Zhè zhōu ràng wǒ zuǐjiǎo shàngyáng/gǎndào wēixiào de yī jiàn shì shì __________.",
+    "spanish": "Algo que me sacó una sonrisa esta semana fue __________."
+  },
+  {
+    "english": "what do you think my defining characteristic is?",
+    "chinese": "你觉得我最标志性/最核心的特质是什么？",
+    "pinyin": "Nǐ juéde wǒ zuì biāozhìxìng/zuì héxīn de tèzhì shì shénme?",
+    "spanish": "¿Cuál crees que es mi característica más distintiva?"
+  },
+  {
+    "english": "have you changed your mind about anything recently?",
+    "chinese": "你最近对什么事情改变了看法吗？",
+    "pinyin": "Nǐ zuìjìn duì shénme shìqíng gǎibiàn le kànfǎ ma?",
+    "spanish": "¿Has cambiado de opinión sobre algo recientemente?"
+  },
+  {
+    "english": "what about me is hardest for you to understand?",
+    "chinese": "关于我，哪一点是你最难理解的？",
+    "pinyin": "Guānyú wǒ, nǎ yīdiǎn shì nǐ zuì nán lǐjiě de?",
+    "spanish": "¿Qué es lo que más te cuesta entender de mí?"
+  },
+  {
+    "english": "what do you admire most about me?",
+    "chinese": "你最欣赏我哪一点？",
+    "pinyin": "Nǐ zuì xīnshǎng wǒ nǎ yīdiǎn?",
+    "spanish": "¿Qué es lo que más admiras de mí?"
+  },
+  {
+    "english": "what was your first impression of me?",
+    "chinese": "你对我的第一印象是什么？",
+    "pinyin": "Nǐ duì wǒ de dì-yī yìnxiàng shì shénme?",
+    "spanish": "¿Cuál fue tu primera impresión de mí?"
+  },
+  {
+    "english": "do you think i was popular in school? explain.",
+    "chinese": "你觉得我以前在学校里受欢迎吗？请解释原因。",
+    "pinyin": "Nǐ juéde wǒ yǐqián zài xuéxiào lǐ shòu huānyíng ma? Qǐng jiěshì yuányīn.",
+    "spanish": "¿Crees que yo era popular en la escuela? Explica por qué."
+  },
+  {
+    "english": "what are you feeling a lot of lately?",
+    "chinese": "你最近情绪中充斥最多的是什么感觉？",
+    "pinyin": "Nǐ zuìjìn qíngxù zhōng chōngchì zuìduō de shì shénme gǎnjiào?",
+    "spanish": "¿Qué sentimiento o emoción has estado experimentando mucho últimamente?"
+  },
+  {
+    "english": "what's the most unexplainable thing that's ever happened to you?",
+    "chinese": "发生在你身上最离奇、最无法用常理解释的事情是什么？",
+    "pinyin": "Fāshēng zài nǐ shēnshàng zuì líqí, zuì wúfǎ yòng chánglǐ jiěshì de shìqíng shì shénme?",
+    "spanish": "¿Qué es lo más inexplicable que te ha pasado en la vida?"
+  },
+  {
+    "english": "what do you need right now but aren't communicating?",
+    "chinese": "你现在需要什么，但却没有表达出来？",
+    "pinyin": "Nǐ xiànzài xūyào shénme, dàn què méiyǒu biǎodá chūlái?",
+    "spanish": "¿Qué necesitas ahora mismo pero no lo estás comunicando?"
+  },
+  {
+    "english": "what's the hardest truth you had to face this past year?",
+    "chinese": "过去这一年里，你必须面对的最残酷的现实是什么？",
+    "pinyin": "Guòqù zhè yī nián lǐ, nǐ bìxū miànduì de zuì cánkù de xiànshí shì shénme?",
+    "spanish": "¿Cuál ha sido la verdad más dura que tuviste que afrontar el año pasado?"
+  },
+  {
+    "english": "what's a feeling you're uncomfortable sharing with me?",
+    "chinese": "有什么样的感受是用你觉得不太方便跟我分享的？",
+    "pinyin": "Yǒu shénmeyàng de gǎnshòu shì nǐ juéde bù tài fāngbiàn gēn wǒ fēnxiǎng de?",
+    "spanish": "¿Qué sentimiento te incomoda compartir conmigo?"
+  },
+  {
+    "english": "WILDCARD: sing your favorite song lyrics you can think of off the top of your head. both players.",
+    "chinese": "双盲卡：唱出你脑海中冒出的第一句最喜欢的歌词。双方都要执行。",
+    "pinyin": "Shuāngmángkǎ: chàng chū nǐ nǎohǎi zhōng mào chū de dì-yī jù zuì xǐhuān de gēcí. Shuāngfāng dōu yào zhíxíng.",
+    "spanish": "COMODÍN: Canta la letra de tu canción favorita que primero te venga a la mente. Ambos jugadores."
+  },
+  {
+    "english": "what are you currently working through that others can't see?",
+    "chinese": "你目前正在默默独自硬撑或调整的难关是什么？",
+    "pinyin": "Nǐ mùqián zhèngzài mòmò dúzì yìngchēng huò tiáozhěng de nánguān shì shénme?",
+    "spanish": "¿En qué estás trabajando internamente en este momento que los demás no pueden ver?"
+  },
+  {
+    "english": "what is your heart telling you?",
+    "chinese": "你内心的声音（直觉）现在在告诉你什么？",
+    "pinyin": "Nǐ nèixīn de shēngyīn (zhíjué) xiànzài zài gàosù nǐ shénme?",
+    "spanish": "¿Qué te está diciendo el corazón?"
+  },
+  {
+    "english": "what was the biggest turning point in your dating life?",
+    "chinese": "你感情生活中最大的转折点是什么？",
+    "pinyin": "Nǐ gǎnqíng shēnghuó zhōng zuìdà de zhuǎnzhédiǎn shì shénme?",
+    "spanish": "¿Cuál ha sido el mayor punto de inflexión en tu vida amorosa?"
+  },
+  {
+    "english": "what is your most toxic trait you can admit to?",
+    "chinese": "你能坦白承认的、自己最“有毒”（糟糕）的特质是什么？",
+    "pinyin": "Nǐ néng tǎnbái chéngrèn de, zìjǐ zuì “yǒudú” (zāogāo) de tèzhì ...",
+    "spanish": "¿Cuál es tu rasgo más tóxico que eres capaz de admitir?"
+  },
+  {
+    "english": "who in your life deserves the biggest thank you? let them know if you can.",
+    "chinese": "你生命中的谁最应该得到你的一声大谢？如果可以，请让他们知道。",
+    "pinyin": "Nǐ shēngmìng zhōng de shéi zuì yīnggāi dédào nǐ de yī shēng dà xiè? Rúguǒ kěyǐ, qǐng ràng tāmen zhīdào.",
+    "spanish": "¿Quién en tu vida se merece el mayor agradecimiento? Házselo saber si puedes."
+  },
+  {
+    "english": "what are you overthinking right now?",
+    "chinese": "你现在对什么事情想得太多（过度焦虑）？",
+    "pinyin": "Nǐ xiànzài duì shénme shìqíng xiǎng de tàiduō (guòdù jiāolǜ)?",
+    "spanish": "¿Qué estás sobrepensando en este momento?"
+  },
+  {
+    "english": "what did your last relationship teach you about yourself?",
+    "chinese": "上一段感情让你对自己有了什么样的新认识？",
+    "pinyin": "Shàng yī duàn gǎnqíng ràng nǐ duì zìjǐ yǒu le shénmeyàng de xīn rènshí?",
+    "spanish": "¿Qué te enseñó tu última relación sobre ti mismo?"
+  },
+  {
+    "english": "what belief about yourself no longer serves you?",
+    "chinese": "关于你自己的哪种固有观念，现在已经对你毫无益处了？",
+    "pinyin": "Guānyú nǐ zìjǐ de nǎ zhǒng gùyǒu guānniàn, xiànzài yǐjīng duì nǐ háowú yìchù le?",
+    "spanish": "¿Qué creencia sobre ti mismo ya no te aporta nada bueno?"
+  },
+  {
+    "english": "what is the last thing you lied to your mom about?",
+    "chinese": "你最近一次跟妈妈撒谎是为了什么事？",
+    "pinyin": "Nǐ zuìjìn yīcì gēn māma sāhuǎng shì wèile shénme shì?",
+    "spanish": "¿Sobre qué fue la última mentira que le dijiste a tu madre?"
+  },
+  {
+    "english": "what would your younger self not believe about your life today?",
+    "chinese": "如果让小时候的你看到你现在的生活，有什么是TA绝对不敢相信的？",
+    "pinyin": "Rúguǒ ràng xiǎoshíhòu de nǐ kàndào nǐ xiànzài de shēnghuó, yǒu shénme shì TA juéduì bùgǎn xiāngxìn de?",
+    "spanish": "¿Qué aspecto de tu vida actual no se creería tu 'yo' del pasado?"
+  },
+  {
+    "english": "what is your tobacco/favorite adjective with which to be described and why?",
+    "chinese": "你最喜欢别人用哪个形容词来评价你？为什么？",
+    "pinyin": "Nǐ zuì xǐhuān biérén yòng nǎge xíngróngcí lái píngjià nǐ? Wèishénme?",
+    "spanish": "¿Cuál es tu adjetivo favorito para que te describan y por qué?"
+  },
+  {
+    "english": "when was the last time you cried?",
+    "chinese": "你上一次哭是什么时候？",
+    "pinyin": "Nǐ shàng yīcì kū shì shénme shíhòu?",
+    "spanish": "¿Cuándo fue la última vez que lloraste?"
+  },
+  {
+    "english": "what are you still trying to prove to yourself?",
+    "chinese": "你目前依然在试图向自己证明什么？",
+    "pinyin": "Nǐ mùqián yīrán zài shìtú xiàng zìjǐ zhèngmíng shénme?",
+    "spanish": "¿Qué sigues intentando demostrarte a ti mismo?"
+  },
+  {
+    "english": "what's the hardest part about dating you?",
+    "chinese": "和你谈恋爱最难熬/最不容易的部分是什么？",
+    "pinyin": "Hé nǐ tán liàn'ài zuì nán'áo/zuì bù róngyì de bùfèn shì shénme?",
+    "spanish": "¿Qué es lo más difícil de salir contigo?"
+  },
+  {
+    "english": "think of someone you admire. what made you think about them specifically?",
+    "chinese": "想一个你钦佩的人。是什么让你特意想到了TA？",
+    "pinyin": "Xiǎng yī gè nǐ qīnpèi de rén. Shì shénme ràng nǐ tèyì xiǎngdào le TA?",
+    "spanish": "Piensa en alguien a quien admires. ¿Qué te hizo pensar específicamente en esa persona?"
+  },
+  {
+    "english": "what's the biggest mistake you've made?",
+    "chinese": "你犯过最大的错误是什么？",
+    "pinyin": "Nǐ fàng guò zuìdà de cuòwù shì shénme?",
+    "spanish": "¿Cuál ha sido el mayor error que has cometido?"
+  },
+  {
+    "english": "what's a phrase that you say that you wish you would stop saying?",
+    "chinese": "哪句你常用的口头禅是你希望能戒掉的？",
+    "pinyin": "Nǎ jù nǐ chángyòng de kǒutóuchán shì nǐ xīwàng néng jièdiào de?",
+    "spanish": "¿Qué frase o muletilla sueles decir que te gustaría dejar de usar?"
+  },
+  {
+    "english": "what do you think our most important similarities are?",
+    "chinese": "你觉得我们之间最重要的共同点/相似之处是什么？",
+    "pinyin": "Nǐ juéde wǒmen zhījiān zuì zhòngyào de gòngtóngdiǎn/xiāngsì zhī chù shì shénme?",
+    "spanish": "¿Cuáles crees que son nuestras similitudes más importantes?"
+  },
+  {
+    "english": "what do you think is one think i could do that would drastically improve my life?",
+    "chinese": "你觉得我做一件什么事，可以大幅度改善我的生活品质或现状？",
+    "pinyin": "Nǐ juéde wǒ zuò yī jiàn shénme shì, kěyǐ dà fúdù gǎishàn wǒ de shēnghuó pǐnzhì huò xiànzhuàng?",
+    "spanish": "¿Qué crees que podría hacer que mejoraría drásticamente mi vida?"
+  },
+  {
+    "english": "what would be the perfect gift for me?",
+    "chinese": "对你来说，送我什么会是最完美的礼物？",
+    "pinyin": "Duì nǐ láishuō, sòng wǒ shénme huì shì zuì wánměi de lǐwù?",
+    "spanish": "¿Cuál sería el regalo perfecto para mí?"
+  },
+  {
+    "english": "how would you describe me to a stranger?",
+    "chinese": "你会怎么向一个陌生人描述我？",
+    "pinyin": "Nǐ huì zěnme xiàng yī gè mòshēngrén miáoshù wǒ?",
+    "spanish": "¿Cómo me describirías ante un desconocido?"
+  },
+  {
+    "english": "what do i need to hear right now?",
+    "chinese": "你觉得我现在最需要听到一句什么话？",
+    "pinyin": "Nǐ juéde wǒ xiànzài zuì xūyào tīngdào yī jù shénme huà?",
+    "spanish": "¿Qué es lo que necesito escuchar en este momento?"
+  },
+  {
+    "english": "based on what you've learned about me, does my social media portray me accurately?",
+    "chinese": "根据你对我的了解，我的社交媒体展示出来的形象准确吗？",
+    "pinyin": "Gēnjù nǐ duì wǒ de liǎojiě, wǒ de shèjiāo méitǐ zhǎnshì chūlái de xíngxiàng zhǔnquè ma?",
+    "spanish": "Basándote en lo que sabes de mí, ¿mis redes sociales me reflejan de manera fiel?"
+  },
+  {
+    "english": "what is a lesson you will take away from our conversation?",
+    "chinese": "这次长谈之后，你会带走哪一条感悟或收获？",
+    "pinyin": "Zhècì chángtán zhīhòu, nǐ huì dàizǒu nǎ yī tiáo gǎnwù huò shōuhuò?",
+    "spanish": "¿Qué lección te llevas de nuestra conversación?"
+  },
+  {
+    "english": "what can i help you with?",
+    "chinese": "有什么是我现在可以帮到你的吗？",
+    "pinyin": "Yǒu shénme shì wǒ xiànzài kěyǐ bāng dào nǐ de ma?",
+    "spanish": "¿En qué te puedo ayudar?"
+  },
+  {
+    "english": "what do you think i fear the most?",
+    "chinese": "你觉得我内心最恐惧的是什么？",
+    "pinyin": "Nǐ juéde wǒ nèixīn zuì kǒngjù de shì shénme?",
+    "spanish": "¿Qué crees que es a lo que más le temo?"
+  },
+  {
+    "english": "where am i most qualified to give advice about?",
+    "chinese": "在哪个领域，你觉得我最够格给别人提建议？",
+    "pinyin": "Zài nǎge lǐngyù, nǐ juéde wǒ zuì gòugé gěi biérén tí jiànyì?",
+    "spanish": "¿En qué tema o ámbito consideras que estoy más capacitado para dar consejos?"
+  },
+  {
+    "english": "if we were a band what would be our name?",
+    "chinese": "如果我们组一个乐队，应该叫什么名字？",
+    "pinyin": "Rúguǒ wǒmen zǔ yī gè yuèduì, yīnggāi jiào shénme míngzì?",
+    "spanish": "Si fuéramos una banda, ¿cómo nos llamaríamos?"
+  },
+  {
+    "english": "what parts of yourself do you see in me?",
+    "chinese": "你在我身上看到了你自己的哪些影子？",
+    "pinyin": "Nǐ zài wǒ shēnshàng kàndào le nǐ zìjǐ de nǎxiē yǐngzi?",
+    "spanish": "¿Qué partes de ti mismo ves en mí?"
+  },
+  {
+    "english": "how does one earn your vulnerability?",
+    "chinese": "别人要怎么做才能赢得你的信任，让你展现出脆弱的一面？",
+    "pinyin": "Biérén yào zěnme zuò cáinéng yíngdé nǐ de xìnrèn, ràng nǐ zhǎnxiàn chū cuìruò de yīmiàn?",
+    "spanish": "¿Cómo se gana uno tu vulnerabilidad?"
+  },
+  {
+    "english": "what question were you most afraid to answer?",
+    "chinese": "刚才这些问题里，你最害怕回答哪一个？",
+    "pinyin": "Gāngcái zhèxiē wèntí lǐ, nǐ zuì hàipà huídá nǎ yī gè?",
+    "spanish": "¿Qué pregunta tenías más miedo de responder?"
+  },
+  {
+    "english": "what has this conversation taught you about yourself?",
+    "chinese": "这次对话让你对自己有了什么新发现？",
+    "pinyin": "Zhècì duìhuà ràng nǐ duì zìjǐ yǒu le shénme xīn fāxiàn?",
+    "spanish": "¿Qué te ha enseñado esta conversación sobre ti mismo?"
+  },
+  {
+    "english": "when this conversation is over, what will be something you will remember about me?",
+    "chinese": "当这次对话结束、日子继续时，关于我你最难以忘怀的是什么？",
+    "pinyin": "Dāng zhècì duìhuà jiéshù, rìzi jìxù shí, guānyú wǒ nǐ zuì nányǐ wànghuái de shì shénme?",
+    "spanish": "Cuando esta conversación termine, ¿qué será lo que más recuerdes de mí?"
+  },
+  {
+    "english": "how do our personalities compliment each other?",
+    "chinese": "你觉得我们的性格在哪些地方达成了互补？",
+    "pinyin": "Nǐ juéde wǒmen de xìnggé zài nǎxiē dìfāng dáchéng le hùbǔ?",
+    "spanish": "¿De qué manera se complementan nuestras personalidades?"
+  },
+  {
+    "english": "what do you think i should know about myself that perhaps i'm unaware of?",
+    "chinese": "你觉得有什么关于我自己的事情是我可能还没意识到的？",
+    "pinyin": "Nǐ juéde yǒu shénme guānyú wǒ zìjǐ de shìqíng shì wǒ kěnéng hái méi yìshí dào de?",
+    "spanish": "¿Qué crees que debería saber sobre mí mismo de lo que tal vez no me doy cuenta?"
+  },
+  {
+    "english": "what would make you feel closer to me?",
+    "chinese": "做什么事情会让你觉得和我的心贴得更近？",
+    "pinyin": "Zuò shénme shìqíng huì ràng nǐ juéde hé wǒ de xīn tiē de gèng jìn?",
+    "spanish": "¿Qué te haría sentir más cercano a mí?"
+  },
+  {
+    "english": "in one word, describe how you feel right now.",
+    "chinese": "用一个词来形容你此时此刻的心情。",
+    "pinyin": "Yòng yī gè cí lái xíngróng nǐ cǐshí cǐkè de xīnqíng.",
+    "spanish": "En una palabra, describe cómo te sientes ahora mismo."
+  },
+  {
+    "english": "what answer of mine made you light up?",
+    "chinese": "我的哪一个回答让你的眼神/心情瞬间亮了起来？",
+    "pinyin": "Wǒ de nǎ yī gè huídá ràng nǐ de yǎnshén/xīnqíng shùnjiān liàng le qǐlái?",
+    "spanish": "¿Cuál de mis respuestas hizo que te iluminaras?"
+  },
+  {
+    "english": "what has been your favorite question so far? why?",
+    "chinese": "到目前为止你最喜欢哪个问题？为什么？",
+    "pinyin": "Dào mùqián wéizhǐ nǐ zuì xǐhuān nǎge wèntí? Wèishénme?",
+    "spanish": "¿Cuál ha sido tu pregunta favorita hasta ahora? ¿Por qué?"
+  },
+  {
+    "english": "what's the most attractive quality about me that isn't physical?",
+    "chinese": "除了外表，我身上最吸引你、最迷人的特质是什么？",
+    "pinyin": "Chúle wàibiǎo, wǒ shēnshàng zuì xīyǐn nǐ, zuì mírén de tèzhì shì shénme?",
+    "spanish": "¿Cuál es mi cualidad no física más atractiva?"
+  },
+  {
+    "english": "WILDCARD: look into each other's eyes for 30 seconds. what did you notice?",
+    "chinese": "双盲卡：对视30秒。你注意到了什么？",
+    "pinyin": "Shuāngmángkǎ: duìshì sānshí miǎo. Nǐ zhùyì dào le shénme?",
+    "spanish": "COMODÍN: Mírense a los ojos durante 30 segundos. ¿Qué notaste?"
+  },
+  {
+    "english": "WILDCARD: write a message to each other and give it to each other. open it once you have left.",
+    "chinese": "双盲卡：给对方写一段话并交到对方手里。等各自离开后再拆开看。",
+    "pinyin": "Shuāngmángkǎ: gěi duìfāng xiě yīduàn huà bìng jiāo dào duìfāng shǒulǐ. Děng gèzì líkāi hòu zài chāikāi kàn.",
+    "spanish": "COMODÍN: Escríbanse un mensaje el uno al otro y entréguenselo. Ábranlo una vez que se hayan ido."
+  },
+  {
+    "english": "WILDCARD: take a selfie together.",
+    "chinese": "双盲卡：一起拍一张自拍。",
+    "pinyin": "Shuāngmángkǎ: yīqǐ pāi yī zhāng zìpāi.",
+    "spanish": "COMODÍN: Tómense una foto juntos."
+  },
+  {
+    "english": "WILDCARD: staring contest. first person to blink must reveal a personal problem and ask the other for advice on how they might handle it.",
+    "chinese": "双盲卡：对视不许眨眼比赛。第一个眨眼的人必须透露一个自己当下的个人烦恼，并向对方征求解决建议。",
+    "pinyin": "Shuāngmángkǎ: duìshì bùxǔ zhǎyǎn bǐsài. Dì-yī gè zhǎyǎn de rén bìxū tòulù yī gè zìjǐ dāngxià de gèrén fánnǎo, bìng xiàng duìfāng zhēngqiú jiějué jiànyì.",
+    "spanish": "COMODÍN: Juego de miradas. La primera persona en parpadear debe revelar un problema personal y pedirle consejo a la otra sobre cómo manejarlo."
+  },
+  {
+    "english": "WILDCARD: press shuffle on your music library. explain the first song that comes up!",
+    "chinese": "双盲卡：随机播放你的音乐库。解释切到的第一首歌对你而言意味着什么！",
+    "pinyin": "Shuāngmángkǎ: suíjī bōfàng nǐ de yīnyuè kù. Jiěshì qiē dào de dì-yī shǒu gē duì nǐ éryán yìwèizhē shénme!",
+    "spanish": "COMODÍN: Pon tu biblioteca de música en modo aleatorio. ¡Explica de qué trata la primera canción que suene!"
+  },
+  {
+    "english": "WILDCARD: tell the other person to close their eyes and to keep them closed. (wait 15 seconds and hug them)",
+    "chinese": "双盲卡：让对方闭上眼睛并保持闭眼。（等待15秒，然后给TA一个拥抱）",
+    "pinyin": "Shuāngmángkǎ: ràng duìfāng bì shàng yǎnjīng bìng bǎochí bìyǎn. (Děngdài shíwǔ miǎo, ránhòu gěi TA yī gè yōngbào)",
+    "spanish": "COMODÍN: Dile a la otra persona que cierre los ojos y los mantenga cerrados. (Espera 15 segundos y dale un abrazo)."
+  },
+  {
+    "english": "WILDCARD: both players share something you're most grateful for in this current moment.",
+    "chinese": "双盲卡：双方共同分享一件你在此时此刻最感激的事情。",
+    "pinyin": "Shuāngmángkǎ: shuāngfāng gòngtóng fēnxiǎng yī jiàn nǐ zài cǐshí cǐkè zuì gǎnjī de shìqíng.",
+    "spanish": "COMODÍN: Ambos jugadores comparten algo por lo que estén sumamente agradecidos en este preciso momento."
+  },
+  {
+    "english": "WILDCARD: draw you current feelings then compare.",
+    "chinese": "双盲卡：画出你当下的心情，然后互相对比。",
+    "pinyin": "Shuāngmángkǎ: huà chū nǐ dāngxià de xīnqíng, ránhòu hùxiāng duìbǐ.",
+    "spanish": "COMODÍN: Dibuja tus sentimientos actuales y luego compárenlos."
+  },
+  {
+    "english": "WILDCARD: show the first photo in your camera roll. explain.",
+    "chinese": "双盲卡：展示你手机相册里的第一张照片。解释它拍的是什么。",
+    "pinyin": "Shuāngmángkǎ: zhǎnshì nǐ shǒujī xiàngcè lǐ de dì-yī zhāng zhàopiàn. Jiěshì tā pāi de shì shénme.",
+    "spanish": "COMODÍN: Muestra la primera foto de tu galería. Explica su contexto."
+  },
+  {
+    "english": "WILDCARD: think of something you dislike that most people don't. on the count of 3 say it out loud.",
+    "chinese": "双盲卡：想一件大家都喜欢但你却讨厌的事情。数到三，一起大声说出来。",
+    "pinyin": "Shuāngmángkǎ: xiǎng yī jiàn dàjiā dōu xǐhuān dàn nǐ què tǎoyàn de shìqíng. Shǔ dào sān, yīqǐ dàshēng shuō chūlái.",
+    "spanish": "COMODÍN: Piensa en algo que te desagrade pero que a la mayoría de la gente le guste. A la de tres, dítelo en voz alta."
+  },
+  {
+    "english": "WILDCARD: how can i add 1% more happiness in your life?",
+    "chinese": "双盲卡：我要怎么做，才能让你的生活再多增加1%的幸福感？",
+    "pinyin": "Shuāngmángkǎ: wǒ yào zěnme zuò, cáinéng ràng nǐ de shēnghuó zài duō zēngjiā bǎifēnzhīyī de xìngfúgǎn?",
+    "spanish": "COMODÍN: ¿Cómo puedo añadir un 1% más de felicidad a tu vida?"
+  },
+  {
+    "english": "what memory instantly makes you smile?",
+    "chinese": "哪段回忆能让你一想起来就立刻笑逐颜开？",
+    "pinyin": "Nǎ duàn huíyì néng ràng nǐ yī xiǎng qǐlái jiù lìkè xiàozhúyánkāi?",
+    "spanish": "¿Qué recuerdo te hace sonreír al instante?"
+  },
+  {
+    "english": "what do you think about most often?",
+    "chinese": "你脑子里平时想得最多的事情是什么？",
+    "pinyin": "Nǐ nǎozǐ lǐ píngshí xiǎng de zuìduō de shìqíng shì shénme?",
+    "spanish": "¿En qué piensas con más frecuencia?"
+  },
+  {
+    "english": "what's something you enjoy that you never get tired of?",
+    "chinese": "有什么事情是你乐此不疲、永远不会厌倦的？",
+    "pinyin": "Yǒu shénme shìqíng shì nǐ lècǐbùpí, yǒngyuǎn búhuì yànjuàn de?",
+    "spanish": "¿Qué es algo que disfrutas y de lo que nunca te cansas?"
+  },
+  {
+    "english": "what's one thing that should be taught, but isn't?",
+    "chinese": "有什么东西是学校应该教、但目前却没有教的？",
+    "pinyin": "Yǒu shénme dōngxī shì xuéxiào yīnggāi jiāo, dàn mùqián què méiyǒu jiāo de?",
+    "spanish": "¿Qué es algo que se debería enseñar pero no se hace?"
+  },
+  {
+    "english": "what's one thing you wish that your parents would do more often?",
+    "chinese": "有什么事痕是你希望父母能更经常去做的？",
+    "pinyin": "Yǒu shénme shì shì nǐ xīwàng fùmǔ néng gèng jīngcháng qù zuò de?",
+    "spanish": "¿Qué es algo que desearías que tus padres hicieran más a menudo?"
+  },
+  {
+    "english": "is there anything you're ashamed of from your past?",
+    "chinese": "你过去有什么事情是至今让你觉得羞耻或惭愧的吗？",
+    "pinyin": "Nǐ guòqù yǒu shénme shìqíng shì zhìjīn ràng nǐ juéde xiūchǐ huò cánkuì de ma?",
+    "spanish": "¿Hay algo de tu pasado de lo que te avergüences?"
+  },
+  {
+    "english": "what's something you believe to be true that no one else around you believes is true?",
+    "chinese": "有什么事情是你坚信不疑、但你身边的所有人都不相信的？",
+    "pinyin": "Yǒu shénme shìqíng shì nǐ jiānxìnbùyí, dàn nǐ shēnbiān de suǒyۆrén dōu bù xiāngxìn de?",
+    "spanish": "¿Qué es algo que crees firmemente que es verdad pero nadie a tu alrededor lo comparte?"
+  },
+  {
+    "english": "when do you feel most alive?",
+    "chinese": "什么时候会让你觉得自己最真实、最有活力地活着？",
+    "pinyin": "Shénme shíhòu huì ràng nǐ juéde zìjǐ zuì zhēnshí, zuì yǒu huólì de huózhe?",
+    "spanish": "¿Cuándo te sientes más vivo?"
+  },
+  {
+    "english": "what kinds of people do you enjoy most being around?",
+    "chinese": "和哪种类型的人相处会让你感到最舒服、最快乐？",
+    "pinyin": "Hé nǎ zhǒng lèixíng de rén xiāngchǔ huì ràng nǐ gǎndào zuì shūfú, zuì kuàilè?",
+    "spanish": "¿Con qué tipo de personas disfrutas más pasar el tiempo?"
+  },
+  {
+    "english": "if you came with a warning label, what would the label say?",
+    "chinese": "如果你身上自带一个警告标签，上面的使用注意事项会写什么？",
+    "pinyin": "Rúguǒ nǐ shēnshàng zìdài yī gè jǐnggào biāoqiān, shàngmiàn de shǐyòng zhùyì shìxiàng huì xiě shénme?",
+    "spanish": "Si vinieras con una etiqueta de advertencia, ¿qué diría?"
+  },
+  {
+    "english": "what are you proudest of yourself for saying \"no\" to recently?",
+    "chinese": "最近你坚决地对什么事情说了“不”，并且为此感到自豪？",
+    "pinyin": "Zuìjìn nǐ jiānjué de duì shénme... shengshuō le “bù”, bìngqiě wèicǐ gǎndào zìháo?",
+    "spanish": "¿De qué te sientes más orgulloso de haber dicho 'no' recientemente?"
+  },
+  {
+    "english": "what about you feels hardest to love?",
+    "chinese": "你觉得自己身上哪个部分是最难让人接受或去爱的？",
+    "pinyin": "Nǐ juéde zìjǐ shēnshàng nǎge bùfèn shì zuì nán ràng rén jiēshòu huò qù ài de?",
+    "spanish": "¿Qué parte de ti crees que es la más difícil de querer?"
+  },
+  {
+    "english": "has a stranger ever changed your life?",
+    "chinese": "曾有哪个陌生人无意间改变了你的生活轨迹吗？",
+    "pinyin": "Céng yǒu nǎge mòshēngrén wúyì jiān gǎibiàn le nǐ de shēnghuó guǐjì ma?",
+    "spanish": "¿Alguna vez un extraño ha cambiado tu vida?"
+  },
+  {
+    "english": "how would you describe your relationship with yourself in one word?",
+    "chinese": "用一个词形容你目前与自己的关系。",
+    "pinyin": "Yòng yī gè cí xíngróng nǐ mùqián yǔ zìjǐ de guānxì.",
+    "spanish": "En una palabra, ¿cómo describirías la relación contigo mismo?"
+  },
+  {
+    "english": "what does my instagram tell you about me?",
+    "chinese": "我的Instagram动态向你展示了一个怎样的我？",
+    "pinyin": "Wǒ de Instagram dòngtài xiàng nǐ zhǎnshì le yī gè zěnmeyàng de wǒ?",
+    "spanish": "¿Qué te dice mi Instagram sobre mí?"
+  },
+  {
+    "english": "what's your favorite compliment to receive?",
+    "chinese": "你最喜欢听到别人赞美你哪一方面？",
+    "pinyin": "Nǐ zuì xǐhuān tīngdào biérén zànměi nǐ nǎ yī fāngmiàn?",
+    "spanish": "¿Cuál es tu cumplido favorito para recibir?"
+  },
+  {
+    "english": "what is your mother's name? and the most beautiful thing about her?",
+    "chinese": "你母亲叫什么名字？她最美丽的地方是什么？",
+    "pinyin": "Nǐ mǔqīn jiào shénme míngzì? Tā zuì měilì de dìfāng shì shénme?",
+    "spanish": "¿Cómo se llama tu madre? Y ¿qué es lo más hermoso de ella?"
+  },
+  {
+    "english": "what has been your earliest recollection of happiness?",
+    "chinese": "在你的童年记忆里，最早关于“快乐”的画面是什么？",
+    "pinyin": "Zài nǐ de tóngnián jìyì lǐ, zuìzǎo guānyú “kuàilè” de huàmiàn shì shénme?",
+    "spanish": "¿Cuál es tu recuerdo más temprano de felicidad?"
+  },
+  {
+    "english": "what title would you give this chapter in your life?",
+    "chinese": "如果要为你人生的当前章节拟定一个标题，它会叫什么？",
+    "pinyin": "Rúguǒ yào wèi nǐ rénshēng de dāngqián zhāngjié nǐdìng yī gè biāotí, tā huì jiào shénme?",
+    "spanish": "¿Qué título le pondrías a este capítulo de tu vida?"
+  },
+  {
+    "english": "How would you act if there was irrefutable proof that God doesn't exist? How about if there was irrefutable proof that God does exist?",
+    "chinese": "如果有无可辩驳的证据证明上帝不存在，你会怎么做？反之，如果有铁证证明上帝确实存在呢？",
+    "pinyin": "Rúguǒ yǒu wúkě biànbó de zhèngjù zhèngmíng Shàngdì bù cúnzài, nǐ huì zěnme zuò? Fǎnzhī, rúguǒ yǒu tiězhèng zhèngmíng Shàngdì quèshí cúnzài ne?",
+    "spanish": "¿Cómo actuarías si hubiera pruebas irrefutables de que Dios no existe? ¿Y si hubiera pruebas irrefutables de que Dios sí existe?"
+  },
+  {
+    "english": "if you had to sum up the whole human species in 3 words, what would those words be?",
+    "chinese": "如果要用三个词来概括整个人类物种，你会选哪三个词？",
+    "pinyin": "Rúguǒ yào yòng sān shǒu cí lái gàikuò zhěnggè rénlèi wùzhǒng, nǐ huì xuǎn nǎ sān gè cí?",
+    "spanish": "Si tuvieras que resumir a toda la especie humana en 3 palabras, ¿cuáles serían?"
+  },
+  {
+    "english": "if you died today, what regrets would you have about your life?",
+    "chinese": "如果你今天生命走到尽头，你对这一生会有什么遗憾？",
+    "pinyin": "Rúguǒ nǐ jīntiān shēngmìng zǒudào jìntóu, nǐ duì zhè yīshēng huì yǒu shénme yíhàn?",
+    "spanish": "Si murieras hoy, ¿de qué te arrepentirías en tu vida?"
+  },
+  {
+    "english": "how has your type in crushes changed over time?",
+    "chinese": "随着时间的推移，你喜欢的异性/心动类型发生了怎样的变化？",
+    "pinyin": "Suízhē shíjiān de tuīyí, nǐ xǐhuān de yìxìng/xīndòng lèixíng fāshēng le zěnyàng de biànhuà?",
+    "spanish": "¿Cómo ha cambiado con el tiempo el tipo de persona que te atrae?"
+  },
+  {
+    "english": "what is something that you hate being called? (a name, a nickname, an insult, etc)",
+    "chinese": "有什么称呼（名字、绰号或贬义词）是特别让你反感和讨厌的？",
+    "pinyin": "Yǒu shénme chēnghu (míngzì, chuòhào huò biǎnyìcí) shì tèbié ràng nǐ fǎngǎn hé tǎoyàn de?",
+    "spanish": "¿Qué es algo que odias que te llamen? (un nombre, un apodo, un insulto, etc.)"
+  }
+]
