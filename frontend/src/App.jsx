@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { getQuestion } from "./api";
 
 function App() {
-  // Keep track of which languages the user wants to pick from
   const [selectedLanguages, setSelectedLanguages] = useState({
     english: true,
     spanish: true,
@@ -13,17 +12,15 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Helper to get an array of just the true active language strings
   const getActiveLangsArray = (langState) => {
     return Object.keys(langState).filter((key) => langState[key]);
   };
 
-  // Fetch handler
   const fetchNewQuestion = async (langsToUse = selectedLanguages) => {
     const activeLangs = getActiveLangsArray(langsToUse);
 
     if (activeLangs.length === 0) {
-      setError("Please select at least one language checkbox.");
+      setError("Please pick at least one language to share.");
       return;
     }
 
@@ -34,54 +31,60 @@ function App() {
       const data = await getQuestion(activeLangs);
       setCurrentQuestion(data);
     } catch (err) {
-      setError("Failed to fetch a question from the backend.");
+      setError("The connection flickered. Try lighting it again.");
     } finally {
       setLoading(false);
     }
   };
 
-  // Fetch an initial question on mount
   useEffect(() => {
     fetchNewQuestion();
   }, []);
 
-  // Handle checkbox changes toggle
   const handleCheckboxChange = (lang) => {
-    const updatedState = {
+    setSelectedLanguages({
       ...selectedLanguages,
       [lang]: !selectedLanguages[lang],
-    };
-
-    setSelectedLanguages(updatedState);
+    });
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center font-sans p-4">
-      <div className="w-full max-w-lg p-8 bg-slate-800 rounded-2xl shadow-xl border border-slate-700">
-        {/* Header */}
-        <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-2 text-center">
-          We're Not Really Strangers: Language Challenge Deck
-        </h1>
-        <p className="text-slate-400 text-sm mb-6 text-center">
-          Configure your target language pool and pull a random challenge card.
-        </p>
+    <div className="min-h-screen bg-slate-950 text-rose-100 flex flex-col items-center justify-center font-sans p-4 relative overflow-hidden">
+      {/* Soft, Romantic Ambient Glows */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-rose-900/20 rounded-full blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[6000ms]"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/20 rounded-full blur-[120px] mix-blend-screen pointer-events-none animate-pulse duration-[8000ms]"></div>
+
+      <div className="w-full max-w-lg z-10">
+        {/* Header Block */}
+        <div className="text-center mb-8">
+          <h1 className="text-3xl font-serif italic font-semibold tracking-wide bg-gradient-to-r from-rose-400 via-pink-300 to-purple-400 bg-clip-text text-transparent mb-2">
+            Closer Than Before
+          </h1>
+          <p className="text-rose-300/60 font-serif text-xs tracking-widest uppercase">
+            Deep Conversations
+          </p>
+        </div>
 
         {/* Configuration Panel */}
-        <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 mb-6">
-          <span className="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">
-            Include in Pool:
+        <div className="bg-stone-900/40 backdrop-blur-md p-4 rounded-xl border border-rose-900/20 shadow-2xl mb-6">
+          <span className="block text-[10px] font-semibold tracking-widest text-rose-400/50 uppercase mb-3 text-center">
+            Choose Your Love Languages
           </span>
           <div className="flex justify-around items-center gap-2">
             {Object.keys(selectedLanguages).map((lang) => (
               <label
                 key={lang}
-                className="flex items-center gap-2 cursor-pointer text-slate-300 hover:text-white capitalize text-sm select-none"
+                className={`flex items-center gap-2 cursor-pointer transition-colors font-serif text-sm select-none ${
+                  selectedLanguages[lang]
+                    ? "text-rose-300"
+                    : "text-stone-500 hover:text-stone-400"
+                }`}
               >
                 <input
                   type="checkbox"
                   checked={selectedLanguages[lang]}
                   onChange={() => handleCheckboxChange(lang)}
-                  className="w-4 h-4 rounded text-blue-500 bg-slate-800 border-slate-700 focus:ring-blue-500 focus:ring-offset-slate-950"
+                  className="w-4 h-4 rounded text-rose-600 bg-stone-950 border-rose-900/40 focus:ring-rose-500 focus:ring-offset-stone-950"
                 />
                 {lang}
               </label>
@@ -89,40 +92,42 @@ function App() {
           </div>
         </div>
 
-        {/* Error Flag Banner */}
+        {/* Error Banner */}
         {error && (
-          <div className="mb-4 p-3 bg-red-950 border border-red-800 text-red-400 rounded-lg text-sm text-center">
+          <div className="mb-4 p-3 bg-rose-950/40 border border-rose-900/30 text-rose-400 rounded-xl text-xs font-serif text-center backdrop-blur-sm">
             {error}
           </div>
         )}
 
-        {/* Question Output Card */}
-        <div className="min-h-[160px] flex flex-col justify-center items-center p-6 bg-slate-900/50 rounded-xl border border-slate-800 text-center mb-6 relative overflow-hidden">
+        {/* WNRS-Inspired Challenge Card */}
+        <div className="min-h-[240px] flex flex-col justify-center items-center p-8 bg-gradient-to-b from-rose-950/40 to-stone-900/60 backdrop-blur-lg rounded-2xl shadow-[0_0_50px_-12px_rgba(159,18,57,0.3)] border border-rose-500/20 text-center mb-6 relative overflow-hidden transition-all duration-300">
           {loading ? (
-            <div className="text-slate-400 font-mono text-sm animate-pulse">
-              Shuffling questions...
+            <div className="text-rose-400/40 font-serif italic text-sm animate-pulse tracking-wide">
+              Shuffling cards in the dark...
             </div>
           ) : currentQuestion ? (
             <>
-              {/* Language Tag badge indicator */}
-              <span className="absolute top-3 right-3 text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 bg-slate-800 border border-slate-700 rounded text-cyan-400">
+              {/* Language Stamp */}
+              <span className="absolute top-4 right-4 text-[9px] font-semibold tracking-widest font-mono uppercase px-2 py-0.5 bg-rose-950/60 border border-rose-500/20 rounded-md text-rose-400">
                 {currentQuestion.language}
               </span>
 
-              {/* Main Text Content */}
-              <p className="text-xl font-medium text-slate-100 leading-relaxed max-w-md">
-                {currentQuestion.question}
+              {/* Card Question Text */}
+              <p className="text-xl md:text-2xl font-serif text-rose-50/90 font-medium leading-relaxed max-w-sm drop-shadow-sm">
+                "{currentQuestion.question}"
               </p>
 
-              {/* Conditionally Render Pinyin block for Chinese */}
+              {/* Character Pinyin Rendering Block */}
               {currentQuestion.pinyin && (
-                <p className="mt-2 text-sm font-mono text-emerald-400 tracking-wide">
+                <p className="mt-4 text-xs font-mono tracking-wider text-purple-300/80 bg-purple-950/30 px-3 py-1 rounded-full border border-purple-500/10">
                   {currentQuestion.pinyin}
                 </p>
               )}
             </>
           ) : (
-            <div className="text-slate-500 text-sm">No question loaded.</div>
+            <div className="text-stone-500 font-serif text-sm">
+              Silence. Pull a card to speak.
+            </div>
           )}
         </div>
 
@@ -130,9 +135,9 @@ function App() {
         <button
           onClick={() => fetchNewQuestion()}
           disabled={loading}
-          className="w-full py-3 px-4 font-semibold text-sm rounded-xl transition-all duration-200 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-blue-500/20 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
+          className="w-full py-3.5 px-4 font-serif text-sm tracking-wide rounded-xl transition-all duration-300 bg-gradient-to-r from-rose-700 to-purple-800 hover:from-rose-600 hover:to-purple-700 text-white shadow-xl shadow-rose-950/50 active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none border border-rose-500/20"
         >
-          Next Random Question
+          Next Card
         </button>
       </div>
     </div>
